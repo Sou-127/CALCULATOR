@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(45deg,#0a0a0a,#3a4452);
+}
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: #1e1e1e;
+    box-shadow: 0px 3px 15px rgba(113,115,119,0.5);
+
+}
+input{
+    width: 350px;
+    border: none;
+    outline: none;
+    padding: 24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgba(84,84,84,0.1);
+    font-size: 32px;
+    text-align: right;
+    cursor: pointer;
+    color: #fff;
+
+}   
+input::placeholder{
+    color: #fff;
+}
+button{
+    width: 70px;
+    height: 70px;
+    margin: 10px;
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    background: #3a4452;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+    box-shadow: 0px 3px 15px rgba(84,84,84,0.3);
+    transition: all 0.3s ease;
+}
+.EqualBtn{
+    background: #ff9500;
+}
+.operator{
+    color: #6fdf13;
+}
