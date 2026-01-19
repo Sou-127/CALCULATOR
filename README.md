@@ -27,6 +27,6 @@ The Calculator allows users to perform basic mathematical calculations such as a
 * Building a responsive UI with CSS
 * Implementing basic logic for calculations
 
-#Screenshot
+
 
 
