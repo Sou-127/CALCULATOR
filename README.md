@@ -27,6 +27,9 @@ The Calculator allows users to perform basic mathematical calculations such as a
 * Building a responsive UI with CSS
 * Implementing basic logic for calculations
 
+# Screenshot
+<img width="300" height="500" alt="Calculator" src="Calculator.jpeg" />
+
 
 
 
